@@ -13,3 +13,11 @@ body {
     background: #4caf50;
     animation: fill 3s linear infinite;
 }
+@keyframes fill {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
