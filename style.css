@@ -1,1 +1,15 @@
 /* style.css file */
+html,
+body {
+    margin: 20px;
+}
+.progress {
+    background: #ddd;
+    height: 10px;
+    width: 100%;
+}
+.bar {
+    height: 10px;
+    background: #4caf50;
+    animation: fill 3s linear infinite;
+}
